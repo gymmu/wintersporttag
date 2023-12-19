@@ -1,24 +1,94 @@
 // src/components/Sidebar.jsx
+function Link({ style, href, children }) {
+  const mergeStyles = (styles) => {
+    return {
+      ...styles,
+      ...style,
+    };
+  };
+
+  return (
+    <a style={mergeStyles({})} href={href}>
+      {children}
+    </a>
+  );
+}
+
+function NavLink({ href, children }) {
+  return (
+    <li
+      style={{
+        height: "100px",
+        width: "100px",
+        borderRadius: "50%",
+        backgroundColor: "#D5E9F6cc",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <a
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexDirection: "column",
+          textDecoration: "none",
+          fontWeight: "bold",
+          color: "black",
+        }}
+        href={href}
+      >
+        {children}
+      </a>
+    </li>
+  );
+}
+
+function Logo({ src }) {
+  return <img src={src} style={{ height: "50px" }} />;
+}
+
 export default function Sidebar() {
   return (
     <aside
       style={{
         position: "fixed",
-        top: 100,
-        right: 0,
-        width: "50px",
+        top: 120,
+        right: 20,
+        width: "100px",
         height: "100%",
-        backgroundColor: "#f3f3f3",
-        borderLeft: "1px solid #ccc",
-        padding: "1rem",
+        padding: "0",
         overflowY: "auto",
       }}
     >
-      <div className="logo-entry">Notfall</div>
-      <div className="logo-entry">Aktivitäten</div>
-      <div className="logo-entry">Zeiten</div>
-      <div className="logo-entry">Regeln</div>
-      <div className="logo-entry">Links</div>
+      <ul
+        style={{
+          listStyle: "none",
+          margin: 0,
+          padding: 0,
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: "1rem",
+        }}
+      >
+        <NavLink href="/">
+          <Logo src="/logo-activity.svg" />
+          Aktivitäten
+        </NavLink>
+
+        <NavLink href="/times">
+          <Logo src="/logo-clock.svg" />
+          Zeiten
+        </NavLink>
+
+        <NavLink href="/rules">
+          <Logo src="/logo-law.svg" />
+          Regeln
+        </NavLink>
+      </ul>
     </aside>
   );
 }
