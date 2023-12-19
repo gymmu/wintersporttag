@@ -74,18 +74,18 @@ export default function Sidebar() {
           gap: "1rem",
         }}
       >
-        <NavLink href="/">
-          <Logo src="/logo-activity.svg" />
+        <NavLink href="/wintersporttag/">
+          <Logo src="/wintersporttag/logo-activity.svg" />
           Aktivitäten
         </NavLink>
 
-        <NavLink href="/times">
-          <Logo src="/logo-clock.svg" />
+        <NavLink href="/wintersporttag/times">
+          <Logo src="/wintersporttag/logo-clock.svg" />
           Zeiten
         </NavLink>
 
-        <NavLink href="/rules">
-          <Logo src="/logo-law.svg" />
+        <NavLink href="/wintersporttag/rules">
+          <Logo src="/wintersporttag/logo-law.svg" />
           Regeln
         </NavLink>
       </ul>
