@@ -137,6 +137,11 @@ export default function Times() {
             <ul className="timetable">
                 {sbbTimesThere.map(entry => <TimeEntry entry={entry} />)}
             </ul>
+
+            <h2>Fahrplan SBB Rückfahrt</h2>
+            <ul className="timetable">
+                {sbbTimesBack.map(entry => <TimeEntry entry={entry} />)}
+            </ul>
         </>
     )
 }
