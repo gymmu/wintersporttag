@@ -2,6 +2,7 @@ import Header from "./Header";
 import Home from "./Home";
 import Times from "./Times";
 import Sidebar from "./Sidebar";
+import Jura from "./Jura";
 import { Router } from "preact-router";
 import "./main.css"
 
@@ -17,6 +18,7 @@ export function App() {
                 <Router>
                     <Home default path="/wintersporttag/" />
                     <Times path="/wintersporttag/times" />
+                    <Jura path="/wintersporttag/jura" />
                 </Router>
             </Main>
             <Sidebar />

@@ -3,9 +3,12 @@ aside {
     top: 120px;
     right: 20px;
     width: 100px;
-    height: 100%;
+    height: calc(100% - 140px);
     padding: 0;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 aside>ul {
@@ -42,4 +45,8 @@ aside>ul>li>a {
 aside>ul>li>a>img {
     height: 40px;
     padding-bottom: 0.5rem;
+}
+
+aside>ul.jura>li {
+    background-color: #F64020cc;
 }

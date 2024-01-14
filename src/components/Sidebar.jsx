@@ -48,6 +48,12 @@ export default function Sidebar() {
           <Logo src="/wintersporttag/logo-law.svg" />
           Regeln
         </NavLink>
+        </ul>
+            <ul className="jura">
+                <NavLink href="/wintersporttag/jura">
+          <Logo src="/wintersporttag/logo-jura.svg" />
+          Jura
+        </NavLink>
       </ul>
     </aside>
   );
