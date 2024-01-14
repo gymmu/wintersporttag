@@ -3,6 +3,7 @@ import Home from "./Home";
 import Times from "./Times";
 import Sidebar from "./Sidebar";
 import { Router } from "preact-router";
+import "./main.css"
 
 function Main({ children }) {
     return <main>{children}</main>;

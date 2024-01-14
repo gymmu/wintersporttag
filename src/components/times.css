@@ -1,0 +1,24 @@
+.timetable {
+    margin: 0;
+    padding: 0;
+}
+
+.time-entry {
+    padding-left: 2rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    height: 2.5rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.time-entry:nth-child(2n) {
+    background-color: #f5f5f5;
+}
+
+.arrival-departure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
