@@ -1,4 +1,5 @@
-import "./sidebar.css"
+import "./sidebar.css";
+import { Match } from "preact-router/match";
 
 // src/components/Sidebar.jsx
 function Link({ style, href, children }) {
@@ -19,9 +20,7 @@ function Link({ style, href, children }) {
 function NavLink({ href, children }) {
   return (
     <li>
-      <a href={href}>
-        {children}
-      </a>
+      <a href={href}>{children}</a>
     </li>
   );
 }
@@ -30,7 +29,7 @@ function Logo({ src }) {
   return <img src={src} />;
 }
 
-export default function Sidebar() {
+function SidebarFlums() {
   return (
     <aside>
       <ul>
@@ -48,13 +47,56 @@ export default function Sidebar() {
           <Logo src="/wintersporttag/logo-law.svg" />
           Regeln
         </NavLink>
-        </ul>
-            <ul className="jura">
-                <NavLink href="/wintersporttag/jura">
+      </ul>
+      <ul className="jura">
+        <NavLink href="/wintersporttag/jura">
           <Logo src="/wintersporttag/logo-jura.svg" />
           Jura
         </NavLink>
       </ul>
     </aside>
+  );
+}
+
+function SidebarJura() {
+  return (
+    <aside>
+      <ul>
+        <NavLink href="/wintersporttag/jura">
+          <Logo src="/wintersporttag/logo-hiking.svg" />
+          Wandern
+        </NavLink>
+
+        <NavLink href="/wintersporttag/jura/times">
+          <Logo src="/wintersporttag/logo-clock.svg" />
+          Zeiten
+        </NavLink>
+
+        <NavLink href="/wintersporttag/jura/rules">
+          <Logo src="/wintersporttag/logo-law.svg" />
+          Regeln
+        </NavLink>
+      </ul>
+      <ul className="jura">
+        <NavLink href="/wintersporttag">
+          <Logo src="/wintersporttag/logo-flums.svg" />
+          Flums
+        </NavLink>
+      </ul>
+    </aside>
+  );
+}
+
+export default function Sidebar() {
+  return (
+    <Match path="/wintersporttag/">
+      {({ url }) => {
+        if (url.indexOf("/wintersporttag/jura") > -1) {
+          return <SidebarJura />;
+        } else {
+          return <SidebarFlums />;
+        }
+      }}
+    </Match>
   );
 }
