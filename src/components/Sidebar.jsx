@@ -1,22 +1,6 @@
 import "./sidebar.css";
 import { Match } from "preact-router/match";
 
-// src/components/Sidebar.jsx
-function Link({ style, href, children }) {
-  const mergeStyles = (styles) => {
-    return {
-      ...styles,
-      ...style,
-    };
-  };
-
-  return (
-    <a style={mergeStyles({})} href={href}>
-      {children}
-    </a>
-  );
-}
-
 function NavLink({ href, children }) {
   return (
     <li>
@@ -46,6 +30,16 @@ function SidebarFlums() {
         <NavLink href="/wintersporttag/rules">
           <Logo src="/wintersporttag/logo-law.svg" />
           Regeln
+        </NavLink>
+
+        <NavLink href="/wintersporttag/transfer">
+          <Logo src="/wintersporttag/logo-transfer.svg" />
+          Transfer
+        </NavLink>
+
+        <NavLink href="/wintersporttag/emergency">
+          <Logo src="/wintersporttag/logo-emergency.svg" />
+          Notfall
         </NavLink>
       </ul>
       <ul className="jura">
