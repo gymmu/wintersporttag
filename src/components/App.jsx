@@ -6,7 +6,7 @@ import Jura from "./Jura";
 import Rules from "./Rules"
 import Emergency from "./Emergency";
 import JuraTimes from "./JuraTimes";
-import JuraRules from "./JuraRules";
+import JuraEmergency from "./JuraEmergency"
 import { Router } from "preact-router";
 import "./main.css";
 
@@ -27,7 +27,7 @@ export function App() {
 
           <Jura path="/wintersporttag/jura" />
           <JuraTimes path="/wintersporttag/jura/times" />
-          <JuraRules path="/wintersporttag/jura/rules" />
+          <JuraEmergency path="/wintersporttag/jura/emergency" />
         </Router>
       </Main>
       <Sidebar />

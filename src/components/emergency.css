@@ -1,0 +1,23 @@
+.emergency-table {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.emergency-header {
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 0.75rem;
+    font-weight: bold;
+}
+
+.emergency-body {
+    padding: 1rem;
+}
+
+.emergency-entry {
+    box-shadow: orangered 0px 5px 15px;
+}
