@@ -133,20 +133,23 @@ function TimeEntry({ entry }) {
 export default function Times() {
     return (
         <>
-            <div className="timetable">
-                <h2>Fahrplan SBB Hinfahrt</h2>
-                <ul >
-                    {sbbTimesThere.map(entry => <TimeEntry entry={entry} />)}
-                </ul>
-            </div>
+            <div className="container">
 
-            <div className="spacer"> </div>
+                <div className="timetable">
+                    <h2>Fahrplan SBB Hinfahrt</h2>
+                    <ul >
+                        {sbbTimesThere.map(entry => <TimeEntry entry={entry} />)}
+                    </ul>
+                </div>
 
-            <div className="timetable">
-            <h2>Fahrplan SBB Rückfahrt</h2>
-            <ul>
-                {sbbTimesBack.map(entry => <TimeEntry entry={entry} />)}
-            </ul>
+                <div className="spacer"> </div>
+
+                <div className="timetable">
+                    <h2>Fahrplan SBB Rückfahrt</h2>
+                    <ul>
+                        {sbbTimesBack.map(entry => <TimeEntry entry={entry} />)}
+                    </ul>
+                </div>
             </div>
         </>
     )

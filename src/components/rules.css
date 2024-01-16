@@ -1,0 +1,15 @@
+.rule {
+    border: 1px solid #eF5930;
+    border-radius: 0.25rem;
+    margin: 1rem 0;
+}
+
+.rule-header {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #eF5930;
+}
+
+.rule-body {
+    padding: 0.5rem;
+}
