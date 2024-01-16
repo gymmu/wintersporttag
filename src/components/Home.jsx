@@ -1,5 +1,11 @@
 import "./home.css"
 
+function Icon({url}) {
+    return (
+        <img src={url} />
+    )
+}
+
 export default function Home() {
     return (
         <>
@@ -8,16 +14,20 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        Skifahren, Snowboarden
+                        <Icon url="logo-ski.svg" />Skifahren, Snowboarden<Icon url="logo-activity.svg" />
                     </div>
                     <div className="activity-body">
                         Steigen Sie in Unterterzen aus und nehmen Sie die Gondelbahn nach Tannenboden, um Ski oder Snowboard zu fahren. Im Skigebiet können Sie sich in Gruppen von mindestens 4 Personen frei bewegen. Wenn Sie etwas dazulernen möchten, schauen Sie in den <a href="#angebote-vor-ort">Angeboten vor Ort</a> nach passenden Möglichkeiten.
+                        <div className="spacer">
+
+                        </div>
+                        Eine Übersichtskarte mit allen Pisten können Sie <a href="https://www.flumserberg.ch/download_2818?locale=de">hier</a> finden.
                     </div>
                 </div>
 
                 <div className="activity">
                     <div className="activity-header">
-                        Schlitteln
+                        <Icon url="logo-schlitten.svg" />Schlitteln
                     </div>
                     <div className="activity-body">
                         Für das Schlittenfahren nehmen Sie den Zug bis nach Flums und steigen dort in das Postauto um. Das Postauto bringt Sie nach Tannenheim, von wo aus Sie mit der Gondel auf die Prodalp gelangen, wo sich die Schlittelstrecke befindet.
@@ -45,6 +55,26 @@ export default function Home() {
                     </div>
                 </div>
 
+                <div className="activity">
+                    <div className="activity-header">
+                        <Icon url="logo-hiking.svg" />Wandern
+                    </div>
+                    <div className="activity-body">
+                        Sie finden zahlreiche wunderschöne Wanderungen auf den Flumserbergen, die Sie entweder von Tannenboden oder Tannenheim aus starten können. Überprüfen Sie vorab den Startort, um zu wissen, an welchem Bahnhof Sie aussteigen müssen. Eine Auswahl an Winterwanderungen finden Sie <a href="https://www.flumserberg.ch/download_4530?locale=de">hier</a>. Alternativ können Sie sich auch einem <a href="#angebote-vor-ort">geführten Angebot</a> anschließen.
+                        <div className="spacer"> </div>
+                        Beim Wandern sind Sie immer in Gruppen von mindestens 4 Personen unterwegs, es sei denn, es handelt sich um ein geführtes Angebot.
+                    </div>
+                </div>
+
+                <div className="activity">
+                    <div className="activity-header">
+                        <Icon url="logo-langlauf.svg" />Langlauf
+                    </div>
+                    <div className="activity-body">
+                        Das Skigebiet Flumserberge ist bekannt für seine atemberaubende Langlaufstrecke, die sowohl Anfängern als auch erfahrenen Läufern ein unvergessliches Erlebnis bietet. Wenn du bisher wenig Erfahrung im Langlauf hast oder einfach nur eine Gruppe suchst, mit der du gemeinsam laufen kannst, dann solltest du unbedingt einen Blick auf die <a href="#angebote-vor-ort">vielfältigen Angebote vor Ort</a> werfen. Dort finden Sie nicht nur Informationen über die verschiedenen Kurse und Trainingsmöglichkeiten, sondern auch die Möglichkeit, direkt mit den erfahrenen Lehrpersonen in Kontakt zu treten.
+                    </div>
+                </div>
+
 
 
                 <div className="spacer"></div>
@@ -53,7 +83,7 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        Wandern Flumserberg Tannenboden - Seeben
+                        <Icon url="logo-hiking.svg" />Wandern Flumserberg Tannenboden - Seeben
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
@@ -70,7 +100,7 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        Wandern Flumserberg Maschgenkamm – Panüöl - Prodalp
+                        <Icon url="logo-hiking.svg" />Wandern Flumserberg Maschgenkamm – Panüöl - Prodalp
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
@@ -88,7 +118,7 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        Wandern Flumserberg Maschgenkamm – Panüöl - Prodalp
+                        <Icon url="logo-hiking.svg" />Wandern Flumserberg Maschgenkamm – Panüöl - Prodalp
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
@@ -103,10 +133,35 @@ export default function Home() {
                     </div>
                 </div>
 
+                <div className="activity">
+                    <div className="activity-header">
+                        <Icon url="public/logo-activity.svg" /> Snowboard mit Fortgeschrittenen
+                    </div>
+                    <div className="activity-body">
+                        <div className="activity-description">
+                            Wer sich beim Snowboardfahren verbessern möchte, einen kurzen Technikcheck haben möchte oder einfach mal sehen möchte, was das Skigebiet Flumserberge zu bieten hat, ist herzlich willkommen! Unser Angebot richtet sich an alle Stufen und wird individuell an die Anwesenden angepasst. Sie können jederzeit teilnehmen und das Angebot nach Belieben verlassen, falls es nicht Ihren Geschmack trifft.
+
+                            <div className="spacer">
+                                
+                            </div>
+
+                            Unsere Treffen finden sowohl am Morgen als auch am Nachmittag statt und bleiben so lange bestehen, wie Sie Interesse haben. Wir freuen uns über spontane Teilnehmer am Treffpunkt, möchten jedoch sicherstellen, dass niemand vergessen wird. Daher freuen wir uns auch über Voranmeldungen per E-Mail. Kommen Sie vorbei und erleben Sie mit uns die Faszination des Snowboardfahrens in den Flumserbergen!
+                        </div>
+                        <div className="activity-teacher">
+                            <a href="mailto:cedric.geissmann@sbl.ch">C. Geissmann</a>
+                        </div>
+                        <div className="activity-meeting">
+                            11:30 Uhr Bergstation Maschgenkamm (vor der grossen Tafel)
+                            14:00 Uhr Bergstation Maschgenkamm (vor der grossen Tafel)
+                        </div>
+                    </div>
+                </div>
+
+
 
                 <div className="activity">
                     <div className="activity-header">
-                        Skifahren mit fortgeschrittenen Anfänger:innen
+                        <Icon url="logo-ski.svg" />Skifahren mit fortgeschrittenen Anfänger:innen
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
@@ -124,7 +179,7 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        Skifahren mit Fortgeschrittenen
+                        <Icon url="logo-ski.svg" />Skifahren mit Fortgeschrittenen
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
@@ -142,7 +197,7 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        Snowboard mit fortgeschrittenen Anfänger:innen
+                        <Icon url="logo-activity.svg" />Snowboard mit fortgeschrittenen Anfänger:innen
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
@@ -158,29 +213,12 @@ export default function Home() {
                 </div>
 
 
-                <div className="activity">
-                    <div className="activity-header">
-                        Snowboard mit Fortgeschrittenen
-                    </div>
-                    <div className="activity-body">
-                        <div className="activity-description">
-                            Treffpunkt Maschgenkamm; Betreuung am Anfang und dann nach Absprache
-                        </div>
-                        <div className="activity-teacher">
-                            C. Geissmann
-                        </div>
-                        <div className="activity-meeting">
-                            11:30h Bergstation Maschgenkamm (im Anschluss an Bergfahrt)
-                        </div>
-                    </div>
-                </div>
-
 
 
 
                 <div className="activity">
                     <div className="activity-header">
-                        Langlauf
+                        <Icon url="logo-langlauf.svg" />Langlauf
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">

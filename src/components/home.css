@@ -2,6 +2,15 @@
     background-color: var(--light-blue);
     padding: 1rem;
     font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+}
+
+.activity-header > img {
+    height: 2rem;
 }
 
 .activity {
