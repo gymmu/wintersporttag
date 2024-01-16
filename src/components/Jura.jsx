@@ -14,6 +14,17 @@ export default function Jura() {
                     Diese Wanderung wird als geführte Tour durchgeführt und findet ausschliesslich in geschlossener Gruppe statt. Es ist strengstens untersagt, sich von der Gruppe zu entfernen.
                 </div>
 
+                <div className="jura-entry">
+                    <h3>Route</h3>
+                    Die Wanderroute führt von Zeglingen nach Oltingen.
+                    <div className="center">
+                        <a href="route-zeglingen-oltingen.pdf">
+
+                        <img src="route.png" />
+                        </a>
+                    </div>
+                </div>
+
 
                 <div className="jura-entry">
                     <h3>Kosten</h3>
