@@ -1,6 +1,6 @@
 import "./home.css"
 
-function Icon({url}) {
+function Icon({ url }) {
     return (
         <img src={url} />
     )
@@ -142,7 +142,7 @@ export default function Home() {
                             Wer sich beim Snowboardfahren verbessern möchte, einen kurzen Technikcheck haben möchte oder einfach mal sehen möchte, was das Skigebiet Flumserberge zu bieten hat, ist herzlich willkommen! Unser Angebot richtet sich an alle Stufen und wird individuell an die Anwesenden angepasst. Sie können jederzeit teilnehmen und das Angebot nach Belieben verlassen, falls es nicht Ihren Geschmack trifft.
 
                             <div className="spacer">
-                                
+
                             </div>
 
                             Unsere Treffen finden sowohl am Morgen als auch am Nachmittag statt und bleiben so lange bestehen, wie Sie Interesse haben. Wir freuen uns über spontane Teilnehmer am Treffpunkt, möchten jedoch sicherstellen, dass niemand vergessen wird. Daher freuen wir uns auch über Voranmeldungen per E-Mail. Kommen Sie vorbei und erleben Sie mit uns die Faszination des Snowboardfahrens in den Flumserbergen!
@@ -211,10 +211,6 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-
-
-
-
 
                 <div className="activity">
                     <div className="activity-header">

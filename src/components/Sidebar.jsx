@@ -32,11 +32,6 @@ function SidebarFlums() {
           Regeln
         </NavLink>
 
-        <NavLink href="/wintersporttag/transfer">
-          <Logo src="/wintersporttag/logo-transfer.svg" />
-          Transfer
-        </NavLink>
-
         <NavLink href="/wintersporttag/emergency">
           <Logo src="/wintersporttag/logo-emergency.svg" />
           Notfall
