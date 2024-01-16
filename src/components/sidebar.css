@@ -1,9 +1,9 @@
 aside {
     position: fixed;
-    top: 120px;
-    right: 20px;
-    width: 100px;
-    height: calc(100% - 140px);
+    top: 3.5rem;
+    right: 10px;
+    width: 80px;
+    height: calc(100% - 4rem);
     padding: 0;
     overflow-y: auto;
     display: flex;
@@ -23,8 +23,8 @@ aside>ul {
 }
 
 aside>ul>li {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     background-color: #D5E9F6cc;
     display: flex;
@@ -43,11 +43,12 @@ aside>ul>li>a {
     flex-direction: column;
     text-decoration: none;
     font-weight: bold;
+    font-size: 0.8rem;
     color: black;
 }
 
 aside>ul>li>a>img {
-    height: 40px;
+    height: 30px;
     padding-bottom: 0.5rem;
 }
 
@@ -56,4 +57,18 @@ aside>ul.jura>li {
 }
 aside>ul.jura>li:hover {
     background-color: #F63010ff;
+}
+
+@media (min-width: 768px) {
+    aside {
+        right: 20px;
+        width: 100px;
+    }
+aside>ul>li {
+    height: 100px;
+    width: 100px;
+    }
+    aside>ul>li>a>img {
+        height: 40px;
+    }
 }

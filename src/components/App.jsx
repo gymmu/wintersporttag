@@ -3,6 +3,7 @@ import Home from "./Home";
 import Times from "./Times";
 import Sidebar from "./Sidebar";
 import Jura from "./Jura";
+import Rules from "./Rules"
 import Transfer from "./Transfer";
 import Emergency from "./Emergency";
 import JuraTimes from "./JuraTimes";
@@ -22,6 +23,7 @@ export function App() {
         <Router>
           <Home default path="/wintersporttag/" />
           <Times path="/wintersporttag/times" />
+          <Rules path="/wintersporttag/rules" />
           <Transfer path="/wintersporttag/transfer" />
           <Emergency path="/wintersporttag/emergency" />
 

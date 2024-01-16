@@ -1,3 +1,21 @@
 :root {
     --light-blue: #D5E9F6cc;
 }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: clamp(340px, 100%, 960px);
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0.5rem 2rem;
+}

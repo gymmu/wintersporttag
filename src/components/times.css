@@ -31,3 +31,12 @@
     align-items: left;
     gap: 0.5rem;
 }
+
+.spacer {
+    margin: 2rem auto;
+
+    border: 1px solid lightgrey;
+    height: 0px;
+    width: 15rem;
+    border-radius: 5px;
+}

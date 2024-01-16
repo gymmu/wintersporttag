@@ -140,6 +140,8 @@ export default function Times() {
                 </ul>
             </div>
 
+            <div className="spacer"> </div>
+
             <div className="timetable">
             <h2>Fahrplan SBB Rückfahrt</h2>
             <ul>

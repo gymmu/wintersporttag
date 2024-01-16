@@ -3,6 +3,8 @@ import "./home.css"
 export default function Home() {
     return (
         <>
+            <div className="container">
+                
             <h2>Angebote vor Ort</h2>
 
             <div className="activity">
@@ -149,6 +151,7 @@ export default function Home() {
                 </div>
             </div>
 
+            </div>
 
         </>
     );
