@@ -1,0 +1,32 @@
+.activity-header {
+    background-color: var(--light-blue);
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.activity {
+    margin: 0.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid lightgray;
+    transition: all 0.4s ease-in-out;
+}
+
+.activity:hover {
+    box-shadow: 0 0 3px 3px lightgray;
+}
+
+.activity-body {
+    padding: 1rem;
+}
+
+.activity-description {
+    padding: 1rem 0;
+}
+
+.activity-teacher::before {
+    content: "Lehrpersonen: "
+}
+
+.activity-meeting::before {
+    content: "Treffpunkt: "
+}

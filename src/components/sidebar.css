@@ -32,6 +32,10 @@ aside>ul>li {
     align-items: center;
 }
 
+aside>ul>li:hover {
+    background-color: #c5d9f6ff;
+}
+
 aside>ul>li>a {
     display: flex;
     justify-content: center;
@@ -49,4 +53,7 @@ aside>ul>li>a>img {
 
 aside>ul.jura>li {
     background-color: #F64020cc;
+}
+aside>ul.jura>li:hover {
+    background-color: #F63010ff;
 }
