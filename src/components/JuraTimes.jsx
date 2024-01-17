@@ -166,9 +166,6 @@ export default function JuraTimes() {
                         <div className="time-cell">
                             14:30
                         </div>
-                        <div>
-                            In Oltingen gibt es die Möglichkeit eines Restaurantbesuchs (Restaurant Ochsen).
-                        </div>
                     </div>
 
                     <h3>Rückfahrt von Oltingen</h3>

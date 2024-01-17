@@ -42,7 +42,7 @@ export default function Jura() {
 
                 <div className="jura-entry">
                     <h3>Verplegung</h3>
-                    Auf eigene Kosten (in Oltingen gibt es ein Restaurant).
+                    Verpflegung erfolgt auf eigene Kosten. Es hat einen Teeposten auf der Wanderung, dort wird jedoch kein Essen bereitgestellt.
                 </div>
 
                 <div className="jura-entry">
