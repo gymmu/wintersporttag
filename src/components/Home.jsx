@@ -31,7 +31,7 @@ export default function Home() {
                     </div>
                     <div className="activity-body">
                         <div className="alert">
-                            Das tragen eines Helmes ist obligatorisch!
+                            Das Tragen eines Helmes ist obligatorisch!
                         </div>
                         Für das Schlittenfahren nehmen Sie den Zug bis nach Flums und steigen dort in das Postauto um. Das Postauto bringt Sie nach Tannenheim, von wo aus Sie mit der Gondel auf die Prodalp gelangen, wo sich die Schlittelstrecke befindet.
                         <div>
@@ -74,7 +74,7 @@ export default function Home() {
                         <Icon url="/wintersporttag/logo-langlauf.svg" />Langlauf
                     </div>
                     <div className="activity-body">
-                        Das Skigebiet Flumserberge ist bekannt für seine atemberaubende Langlaufstrecke, die sowohl Anfängern als auch erfahrenen Läufern ein unvergessliches Erlebnis bietet. Wenn du bisher wenig Erfahrung im Langlauf hast oder einfach nur eine Gruppe suchst, mit der du gemeinsam laufen kannst, dann solltest du unbedingt einen Blick auf die <a href="#angebote-vor-ort">vielfältigen Angebote vor Ort</a> werfen. Dort finden Sie nicht nur Informationen über die verschiedenen Kurse und Trainingsmöglichkeiten, sondern auch die Möglichkeit, direkt mit den erfahrenen Lehrpersonen in Kontakt zu treten.
+                        Das Skigebiet Flumserberge ist bekannt für seine atemberaubende Langlaufstrecke, die sowohl Anfängern als auch erfahrenen Läufern ein unvergessliches Erlebnis bietet. Wenn Sie bisher wenig Erfahrung im Langlauf haben oder einfach nur eine Gruppe suchen, mit der Sie gemeinsam laufen können, sollten Sie unbedingt einen Blick auf die <a href="#angebote-vor-ort">vielfältigen Angebote vor Ort</a> werfen. Dort finden Sie nicht nur Informationen über die verschiedenen Kurse und Trainingsmöglichkeiten, sondern auch die Möglichkeit, direkt mit den erfahrenen Lehrpersonen in Kontakt zu treten.
                     </div>
                 </div>
 
@@ -154,8 +154,12 @@ export default function Home() {
                             <a href="mailto:cedric.geissmann@sbl.ch">C. Geissmann</a>
                         </div>
                         <div className="activity-meeting">
+                            <div>
                             11:30 Uhr Bergstation Maschgenkamm (vor der grossen Tafel)
+                            </div>
+                            <div>
                             14:00 Uhr Bergstation Maschgenkamm (vor der grossen Tafel)
+                            </div>
                         </div>
                     </div>
                 </div>

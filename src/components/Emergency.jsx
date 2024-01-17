@@ -3,7 +3,10 @@ export default function Emergency() {
         <>
             <div className="container">
                 <h2>Verhalten im Notfall</h2>
-                Bei jeglicher Art von Unfällen ist der Schulposten auf der Prodalp direkt zu kontaktieren. Der Schulposten leitet dann das weitere Vorgehen in die Wege.
+                <div>
+
+                    Bei jeglicher Art von Unfällen ist der <strong>Schulposten auf der Prodalp</strong>, sowie die <strong>SOS Flumserberge</strong> direkt zu kontaktieren. Der Schulposten leitet dann das weitere Vorgehen in die Wege.
+                </div>
 
                 <div className="emergency-numbers">
                     <div>
@@ -21,10 +24,15 @@ export default function Emergency() {
 
                 <h2>Zug verpasst?</h2>
                 <h4>Hinreise</h4>
-                Melden Sie sich umgehend bei Ihrer Klassenlehrperson, damit das weitere Vorgehen besprochen werden kann.
+                <div>
+
+                    Melden Sie sich umgehend bei Ihrer Klassenlehrperson, damit das weitere Vorgehen besprochen werden kann.
+                </div>
 
                 <h4>Rückreise</h4>
-                Sollten Sie es nicht rechtzeitig zum Zug schaffen, informieren Sie bitte umgehend die Lehrpersonen Cedric Geissmann und Walter Käch, damit eine betreute Rückreise organisiert werden kann. Melden Sie sich ebenfall bei Ihrer Klassenlehrperson. Es ist äusserst wichtig, den Zug nicht zu verpassen.
+                <div>
+                    Sollten Sie es nicht rechtzeitig zum Zug schaffen, informieren Sie bitte umgehend Ihre Klassenlehrpersonen und melden Sie sich beim Schulposten. Diese werden es dann an die Lehrpersonen Cedric Geissmann und Walter Käch weiterleiten, die eine betreute Rückreise mit Ihnen organisieren werden. Es ist äusserst wichtig, den Zug nicht zu verpassen.
+                </div>
             </div>
         </>
     )
