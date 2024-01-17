@@ -103,7 +103,7 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        <Icon url="/wintersporttag/logo-hiking.svg" />Wandern Flumserberg Maschgenkamm – Panüöl - Prodalp
+                        <Icon url="/wintersporttag/logo-hiking.svg" />Tannenheim – Prodal – Panüöl – Maschgenkamm
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
