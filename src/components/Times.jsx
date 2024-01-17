@@ -135,6 +135,8 @@ export default function Times() {
         <>
             <div className="container">
 
+                Die Abfahrtszeiten sind teilweise sehr knapp und es ist nicht immer genügend Platz für alle Wagen auf dem Bahnsteig vorhanden. Daher ist es äusserst wichtig, dass Sie pünktlich vor Ort sind, schnell einsteigen und sicherstellen, in welchen Wagen Sie müssen.
+
                 <div className="timetable">
                     <h2>Fahrplan SBB Hinfahrt</h2>
                     <ul >

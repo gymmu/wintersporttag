@@ -67,7 +67,7 @@ function SidebarJura() {
         </NavLink>
       </ul>
       <ul className="jura">
-        <NavLink href="/wintersporttag">
+        <NavLink href="/wintersporttag/">
           <Logo src="/wintersporttag/logo-flums.svg" />
           Flums
         </NavLink>

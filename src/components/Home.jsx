@@ -14,7 +14,7 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        <Icon url="logo-ski.svg" />Skifahren, Snowboarden<Icon url="logo-activity.svg" />
+                        <Icon url="/wintersporttag/logo-ski.svg" />Skifahren, Snowboarden<Icon url="/wintersporttag/logo-activity.svg" />
                     </div>
                     <div className="activity-body">
                         Steigen Sie in Unterterzen aus und nehmen Sie die Gondelbahn nach Tannenboden, um Ski oder Snowboard zu fahren. Im Skigebiet können Sie sich in Gruppen von mindestens 4 Personen frei bewegen. Wenn Sie etwas dazulernen möchten, schauen Sie in den <a href="#angebote-vor-ort">Angeboten vor Ort</a> nach passenden Möglichkeiten.
@@ -27,27 +27,30 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        <Icon url="logo-schlitten.svg" />Schlitteln
+                        <Icon url="/wintersporttag/logo-schlitten.svg" />Schlitteln
                     </div>
                     <div className="activity-body">
+                        <div className="alert">
+                            Das tragen eines Helmes ist obligatorisch!
+                        </div>
                         Für das Schlittenfahren nehmen Sie den Zug bis nach Flums und steigen dort in das Postauto um. Das Postauto bringt Sie nach Tannenheim, von wo aus Sie mit der Gondel auf die Prodalp gelangen, wo sich die Schlittelstrecke befindet.
                         <div>
                             <div className="table-2">
                                 <div className="column">
                                     <div className="col-header">
-                                        Mit Helm
+                                        Ohne Helmmiete
                                     </div>
                                     <div>
-                                        Wer bereits einen Helm besitzt, kann den Schlitten direkt oben auf der Prodalp ausleihen.
+                                        Wenn Sie sich für das Schlitteln mit Schlittenmiete angemeldet haben, erhalten Sie Ihren Schlitten auf der Prodalp.
                                     </div>
                                 </div>
 
                                 <div className="column">
                                     <div className="col-header">
-                                        Ohne Helm
+                                        Mit Helmmiete
                                     </div>
                                     <div>
-                                        Schlitten und Helme können im Intersport in Tannenheim gemietet werden, für diejenigen, die noch keinen Helm besitzen.
+                                        Wenn Sie sich für das Schlitteln mit Schlitten- und Helmmiete angemeldet haben, können Sie beides im Intersport in Tannenheim erhalten.
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +60,7 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        <Icon url="logo-hiking.svg" />Wandern
+                        <Icon url="/wintersporttag/logo-hiking.svg" />Wandern
                     </div>
                     <div className="activity-body">
                         Sie finden zahlreiche wunderschöne Wanderungen auf den Flumserbergen, die Sie entweder von Tannenboden oder Tannenheim aus starten können. Überprüfen Sie vorab den Startort, um zu wissen, an welchem Bahnhof Sie aussteigen müssen. Eine Auswahl an Winterwanderungen finden Sie <a href="https://www.flumserberg.ch/download_4530?locale=de">hier</a>. Alternativ können Sie sich auch einem <a href="#angebote-vor-ort">geführten Angebot</a> anschließen.
@@ -68,7 +71,7 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        <Icon url="logo-langlauf.svg" />Langlauf
+                        <Icon url="/wintersporttag/logo-langlauf.svg" />Langlauf
                     </div>
                     <div className="activity-body">
                         Das Skigebiet Flumserberge ist bekannt für seine atemberaubende Langlaufstrecke, die sowohl Anfängern als auch erfahrenen Läufern ein unvergessliches Erlebnis bietet. Wenn du bisher wenig Erfahrung im Langlauf hast oder einfach nur eine Gruppe suchst, mit der du gemeinsam laufen kannst, dann solltest du unbedingt einen Blick auf die <a href="#angebote-vor-ort">vielfältigen Angebote vor Ort</a> werfen. Dort finden Sie nicht nur Informationen über die verschiedenen Kurse und Trainingsmöglichkeiten, sondern auch die Möglichkeit, direkt mit den erfahrenen Lehrpersonen in Kontakt zu treten.
@@ -83,11 +86,11 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        <Icon url="logo-hiking.svg" />Wandern Flumserberg Tannenboden - Seeben
+                        <Icon url="/wintersporttag/logo-hiking.svg" />Wandern Flumserberg Tannenboden - Seeben
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
-                            Begleite uns auf einer atemberaubenden Wanderung entlang einer malerischen Strecke von insgesamt 8 Kilometern - hin und zurück. Geniesse die unberührte Natur und erlebe die Schönheit der Landschaft hautnah. Doch das ist noch nicht alles! Auf halber Strecke erwartet dich das Restaurant Seeben Bad, ein wahres Juwel mit einer wunderschönen, ruhigen Sonnenterrasse. Hier kannst du dich entspannen und die Sonne auf deiner Haut spüren, während du den Blick über den glitzernden See schweifen lässt. Lass dich von der herzlichen Atmosphäre und dem köstlichen Essen verwöhnen, bevor du gestärkt den Rückweg antrittst. Diese Wanderung ist ein absolutes Muss für Naturliebhaber und Geniesser gleichermassen. Komm mit und erlebe unvergessliche Momente inmitten der Natur!
+                            Begleiten Sie uns auf einer atemberaubenden Wanderung entlang einer malerischen Strecke von insgesamt 8 Kilometern - hin und zurück. Geniessen Sie die unberührte Natur und erleben Sie die Schönheit der Landschaft hautnah. Doch das ist noch nicht alles! Auf halber Strecke erwartet Sie das Restaurant Seeben Bad, ein wahres Juwel mit einer wunderschönen, ruhigen Sonnenterrasse. Hier können Sie sich entspannen und die Sonne auf Ihrer Haut spüren, während Sie den Blick über den glitzernden See schweifen lassen. Lassen Sie sich von der herzlichen Atmosphäre und dem köstlichen Essen verwöhnen, bevor Sie gestärkt den Rückweg antreten. Diese Wanderung ist ein absolutes Muss für Naturliebhaber und Genießer gleichermaßen. Kommen Sie mit und erleben Sie unvergessliche Momente inmitten der Natur!
                         </div>
                         <div className="activity-teacher">
                             M. Stöcklin
@@ -100,7 +103,7 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        <Icon url="logo-hiking.svg" />Wandern Flumserberg Maschgenkamm – Panüöl - Prodalp
+                        <Icon url="/wintersporttag/logo-hiking.svg" />Wandern Flumserberg Maschgenkamm – Panüöl - Prodalp
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
@@ -118,7 +121,7 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        <Icon url="logo-hiking.svg" />Wandern Flumserberg Maschgenkamm – Panüöl - Prodalp
+                        <Icon url="/wintersporttag/logo-hiking.svg" />Wandern Flumserberg Maschgenkamm – Panüöl - Prodalp
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
@@ -135,7 +138,7 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        <Icon url="public/logo-activity.svg" /> Snowboard mit Fortgeschrittenen
+                        <Icon url="/wintersporttag/logo-activity.svg" /> Snowboard mit Fortgeschrittenen
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
@@ -161,7 +164,7 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        <Icon url="logo-ski.svg" />Skifahren mit fortgeschrittenen Anfänger:innen
+                        <Icon url="/wintersporttag/logo-ski.svg" />Skifahren mit fortgeschrittenen Anfänger:innen
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
@@ -179,7 +182,7 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        <Icon url="logo-ski.svg" />Skifahren mit Fortgeschrittenen
+                        <Icon url="/wintersporttag/logo-ski.svg" />Skifahren mit Fortgeschrittenen
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
@@ -197,7 +200,7 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        <Icon url="logo-activity.svg" />Snowboard mit fortgeschrittenen Anfänger:innen
+                        <Icon url="/wintersporttag/logo-activity.svg" />Snowboard mit fortgeschrittenen Anfänger:innen
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
@@ -214,7 +217,7 @@ export default function Home() {
 
                 <div className="activity">
                     <div className="activity-header">
-                        <Icon url="logo-langlauf.svg" />Langlauf
+                        <Icon url="/wintersporttag/logo-langlauf.svg" />Langlauf
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
