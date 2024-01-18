@@ -152,6 +152,95 @@ export default function Times() {
                         {sbbTimesBack.map(entry => <TimeEntry entry={entry} />)}
                     </ul>
                 </div>
+
+                <div className="spacer"> </div>
+
+                <h2>Bergfahrt</h2>
+                Füllen Sie die Gondeln und Postautos schnell und vollständig, um einen reibungslosen Betrieb zu gewährleisten.
+
+                <h2>Talfahrt</h2>
+                Stellen Sie sicher, dass Sie die Talfahrt pünktlich antreten, damit niemand den Zug verpasst. Um langes Anstehen und Engpässe zu vermeiden, ist es wichtig, dass alle rechtzeitig erscheinen. Befolgen Sie bitte den folgenden Plan.
+
+                <h4>Schlitten ab Tannenheim</h4>
+                Es stehen Postautos in Tannenheim zur Verfügung, die um 16:30 Uhr abfahren. Bitte seien Sie pünktlich und füllen Sie alle Postautos aus.
+
+                <h4>Ski und Snowboard ab Tannenboden</h4>
+                Um lange Wartezeiten an der Gondel zu vermeiden, befolgen Sie bitte den folgenden Plan.
+
+                <div className="downhill-times">
+                    <div className="downhill-col">
+                        <span>16:05 Uhr</span>
+                        <span>1AM</span>
+                        <span>1B</span>
+                        <span>1BL</span>
+                        <span>1E</span>
+                        <span>1IS</span>
+                    </div>
+                    <div className="downhill-col">
+                        <span>16:10 Uhr</span>
+                        <span>1Wa</span>
+                        <span>1Wb</span>
+                        <span>1Wd</span>
+                        <span>1Z</span>
+                        <span>F1a</span>
+                    </div>
+                    <div className="downhill-col">
+                        <span>16:15 Uhr</span>
+                        <span>F1b</span>
+                        <span>F1c</span>
+                        <span>F1d</span>
+                        <span>2AW</span>
+                        <span>2B</span>
+                    </div>
+                    <div className="downhill-col">
+                        <span>16:20 Uhr</span>
+                        <span>2Ea</span>
+                        <span>2Eb</span>
+                        <span>2IS</span>
+                        <span>2LMZ</span>
+                        <span>2Wa</span>
+                    </div>
+                    <div className="downhill-col">
+                        <span>16:25 Uhr</span>
+                        <span>2Wb</span>
+                        <span>F2a</span>
+                        <span>F2b</span>
+                        <span>F2c</span>
+                        <span>F2d</span>
+                    </div>
+                    <div className="downhill-col">
+                        <span>16:30 Uhr</span>
+                        <span>3A</span>
+                        <span>3B</span>
+                        <span>3E</span>
+                        <span>3ILS</span>
+                        <span>3MZ</span>
+                    </div>
+                    <div className="downhill-col">
+                        <span>16:35 Uhr</span>
+                        <span>F2e</span>
+                        <span>3Wa</span>
+                        <span>3Wb</span>
+                        <span>F3a</span>
+                        <span>F3b</span>
+                    </div>
+                    <div className="downhill-col">
+                        <span>16:40 Uhr</span>
+                        <span>F3c</span>
+                        <span>F3d</span>
+                        <span>4AB</span>
+                        <span>4B</span>
+                        <span>4E</span>
+                    </div>
+                    <div className="downhill-col">
+                        <span>16:45 Uhr</span>
+                        <span>4ILS</span>
+                        <span>4MZ</span>
+                        <span>4W</span>
+                        <span>P1a</span>
+                        <span>P1b</span>
+                    </div>
+                </div>
             </div>
         </>
     )

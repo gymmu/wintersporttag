@@ -39,3 +39,28 @@
     width: 15rem;
     border-radius: 5px;
 }
+
+.downhill-times {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.downhill-col:nth-child(2n) {
+    background-color: lightgrey;
+}
+
+.downhill-col {
+    padding: 0.25rem;
+    display: grid;
+    grid-template-columns: 2fr repeat(5, 1fr);
+}
+
+.downhill-col >span {
+    text-align: center;
+}
+
+.downhill-col >span:first-child {
+    font-weight: bold;
+    text-align: left;
+}
