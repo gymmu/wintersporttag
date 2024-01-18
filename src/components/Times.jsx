@@ -162,7 +162,9 @@ export default function Times() {
                 Stellen Sie sicher, dass Sie die Talfahrt pünktlich antreten, damit niemand den Zug verpasst. Um langes Anstehen und Engpässe zu vermeiden, ist es wichtig, dass alle rechtzeitig erscheinen. Befolgen Sie bitte den folgenden Plan.
 
                 <h4>Schlitten ab Tannenheim</h4>
-                Es stehen Postautos in Tannenheim zur Verfügung, die um 16:30 Uhr abfahren. Bitte seien Sie pünktlich und füllen Sie alle Postautos aus.
+                <div>
+                    Es stehen Postautos in Tannenheim zur Verfügung, die um <strong>16:30 Uhr</strong> abfahren. Bitte seien Sie pünktlich und füllen Sie alle Postautos aus.
+                </div>
 
                 <h4>Ski und Snowboard ab Tannenboden</h4>
                 Um lange Wartezeiten an der Gondel zu vermeiden, befolgen Sie bitte den folgenden Plan.
