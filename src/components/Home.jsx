@@ -211,7 +211,7 @@ export default function Home() {
                             Treffpunkt Tannenboden; Betreuung am Anfang und dann nach Absprache
                         </div>
                         <div className="activity-teacher">
-                            J. Gees
+                            J. Gees, Y. Thommen
                         </div>
                         <div className="activity-meeting">
                             11:15h Tannenboden (im Anschluss an Gondelfahrt)
