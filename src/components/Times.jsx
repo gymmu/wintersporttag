@@ -117,6 +117,20 @@ const sbbTimesThere = [
     }
 ]
 
+const trainComposition = [
+    [{ klasse: "F2d", lp: "Ke" }, { klasse: "F3a", lp: "Lö" }, { klasse: "F3b", lp: "Kr" }, { klasse: "F3d", lp: "Lv" }],
+    [{ klasse: "F2a", lp: "Mo" }, { klasse: "F2b", lp: "BP" }, { klasse: "F2c", lp: "Vb" }, { klasse: "F2e", lp: "Kä" }],
+    [{ klasse: "1BL", lp: "Hi" }, { klasse: "F1b", lp: "Hu" }, { klasse: "2AW", lp: "Ga/17" }, { klasse: "2IS", lp: "MF/18" }],
+    [{ klasse: "1B", lp: "Re" }, { klasse: "1E", lp: "Re" }, { klasse: "F1a", lp: "Gr" }, { klasse: "3A", lp: "Rt" }],
+    [{ klasse: "1IS", lp: "Sd" }, { klasse: "F1c", lp: "Sd" }, { klasse: "2Ea", lp: "Fi" }, { klasse: "2Eb", lp: "Gl" }],
+    [{ klasse: "1Z", lp: "Ld" }, { klasse: "3MZ", lp: "Ge" }, { klasse: "F3c", lp: "Mh" }, { klasse: "Schulleitung", lp: "Admin & LP" }],
+    [{ klasse: "1AM", lp: "Hp" }, { klasse: "1Wd", lp: "Dg" }, { klasse: "F1d", lp: "Sc" }, { klasse: "3B", lp: "Bx" }, { klasse: "4W", lp: "Br" }],
+    [{ klasse: "1Wb", lp: "Et" }, { klasse: "2Wa", lp: "Wl" }, { klasse: "3ILS", lp: "Et" }, { klasse: "4E", lp: "Mb" }],
+    [{ klasse: "1Wa", lp: "Bb" }, { klasse: "4AB", lp: "Ry" }, { klasse: "4ILS", lp: "NN" }, { klasse: "4MZ", lp: "Nu" }],
+    [{ klasse: "2LMZ", lp: "NN" }, { klasse: "2Wb", lp: "Aw" }, { klasse: "3E", lp: "Mx" }, { klasse: "3Wa", lp: "Sk" }],
+    [{ klasse: "2B", lp: "Kn" }, { klasse: "3Wb", lp: "Ft" }, { klasse: "4B", lp: "Rf" }, { klasse: "P1b", lp: "Hx" }, { klasse: "P1a", lp: "Va" }],
+]
+
 function TimeEntry({ entry }) {
     return (
         <li className="time-entry">
@@ -130,18 +144,51 @@ function TimeEntry({ entry }) {
     )
 }
 
+function TrainCompositionEntry({ entry }) {
+    return entry.map(e => (
+        <div className="class-and-lp">
+            <span>{e.klasse}</span>
+            <span>{e.lp}</span>
+        </div>
+    )
+    )
+}
+
 export default function Times() {
     return (
         <>
             <div className="container">
 
+                <div className="inset">
                 Die Abfahrtszeiten sind teilweise sehr knapp und es ist nicht immer genügend Platz für alle Wagen auf dem Bahnsteig vorhanden. Daher ist es äusserst wichtig, dass Sie pünktlich vor Ort sind, schnell einsteigen und sicherstellen, in welchen Wagen Sie müssen.
+                </div>
 
                 <div className="timetable">
                     <h2>Fahrplan SBB Hinfahrt</h2>
                     <ul >
                         {sbbTimesThere.map(entry => <TimeEntry entry={entry} />)}
                     </ul>
+                </div>
+
+                <div className="spacer"> </div>
+
+                <div className="train-composition">
+                    <h2>Zusammensetzung des Zugs</h2>
+
+                    <div className="inset">
+                        Die Perrons in Muttenz, Pratteln, Kaiseraugst und Mumpf sind zu kurz, daher bleiben die Wagen 8-11 geschlossen. Steigen Sie deshalb im Wagen 7 ein und gehen Sie so rasch wie möglich zu Ihrem Wagen, sodass keine Verzögerungen entstehen.
+                    </div>
+
+                    {trainComposition.map((entry, index) => {
+                        return <div className="traincomposition-row">
+                            <span>W{index + 1}</span>
+                            <div className="waggon-composition">
+                                <TrainCompositionEntry entry={entry} />
+                            </div>
+                        </div>
+                    }
+
+                    )}
                 </div>
 
                 <div className="spacer"> </div>
@@ -156,18 +203,24 @@ export default function Times() {
                 <div className="spacer"> </div>
 
                 <h2>Bergfahrt</h2>
+                <div className="inset">
                 Füllen Sie die Gondeln und Postautos schnell und vollständig, um einen reibungslosen Betrieb zu gewährleisten.
+                </div>
 
                 <h2>Talfahrt</h2>
+                <div className="inset">
                 Stellen Sie sicher, dass Sie die Talfahrt pünktlich antreten, damit niemand den Zug verpasst. Um langes Anstehen und Engpässe zu vermeiden, ist es wichtig, dass alle rechtzeitig erscheinen. Befolgen Sie bitte den folgenden Plan.
+                </div>
 
                 <h4>Schlitten ab Tannenheim</h4>
-                <div>
+                <div className="inset">
                     Es stehen Postautos in Tannenheim zur Verfügung, die um <strong>16:30 Uhr</strong> abfahren. Bitte seien Sie pünktlich und füllen Sie alle Postautos aus.
                 </div>
 
                 <h4>Ski und Snowboard ab Tannenboden</h4>
+                <div className="inset">
                 Um lange Wartezeiten an der Gondel zu vermeiden, befolgen Sie bitte den folgenden Plan.
+                </div>
 
                 <div className="downhill-times">
                     <div className="downhill-col">
