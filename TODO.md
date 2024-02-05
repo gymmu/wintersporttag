@@ -1,14 +1,14 @@
 # TODO
 
-- [ ] Inhalte für Jurawanderung hinzufügen
+- [X] Inhalte für Jurawanderung hinzufügen
 
-  - [x] Erstelle eine Unterwebseite für die Jurawanderung
-  - [ ] Abfahrtszeiten für die Wanderung
-  - [x] Andere Navigationsleiste für die Jurawanderung
+  - [X] Erstelle eine Unterwebseite für die Jurawanderung
+  - [X] Abfahrtszeiten für die Wanderung
+  - [X] Andere Navigationsleiste für die Jurawanderung
 
-- [ ] Inhalte für Skitag hinzufügen
+- [X] Inhalte für Skitag hinzufügen
 
-  - [ ] Angebote von Lehrpersonen
-  - [x] Abfahrtszeiten SBB
-  - [ ] Regeln erstellen
-  - [ ] Weiteres, habe vergessen was
+  - [X] Angebote von Lehrpersonen
+  - [X] Abfahrtszeiten SBB
+  - [X] Regeln erstellen
+  - [X] Weiteres, habe vergessen was
