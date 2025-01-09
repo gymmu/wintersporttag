@@ -56,14 +56,9 @@ function SidebarJura() {
           Wandern
         </NavLink>
 
-        <NavLink href="/wintersporttag/jura/times">
-          <Logo src="/wintersporttag/logo-clock.svg" />
-          Zeiten
-        </NavLink>
-
         <NavLink href="/wintersporttag/jura/emergency">
           <Logo src="/wintersporttag/logo-emergency.svg" />
-            Notfall
+          Notfall
         </NavLink>
       </ul>
       <ul className="jura">
