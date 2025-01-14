@@ -23,7 +23,9 @@ export default function Jura() {
           <h3>Route</h3>
           Die Wanderroute führt von Aesch nach Grellingen.
           <div className="center">
-            <img src="route.png" />
+            <a href="https://map.schweizmobil.ch/?lang=de&photos=yes&logo=yes&detours=yes&season=summer&resolution=2.79&E=2612756&N=1255885&bgLayer=pk&trackId=371438475">
+              <img src="route.png" />
+            </a>
           </div>
         </div>
 
@@ -44,8 +46,8 @@ export default function Jura() {
 
         <div className="jura-entry">
           <h3>Verplegung</h3>
-          Verpflegung erfolgt auf eigene Kosten. Es hat einen Teeposten auf der
-          Wanderung, dort wird jedoch kein Essen bereitgestellt.
+          Verpflegung erfolgt aus dem eigenen Rucksack. Es hat einen Teeposten
+          auf der Wanderung, dort wird jedoch kein Essen bereitgestellt.
         </div>
 
         <div className="jura-entry">
