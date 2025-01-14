@@ -139,72 +139,72 @@ const sbbTimesThere = [
 
 const trainComposition = [
   [
-    { klasse: "F2d", lp: "Ke" },
-    { klasse: "F3a", lp: "Lö" },
-    { klasse: "F3b", lp: "Kr" },
-    { klasse: "F3d", lp: "Lv" },
+    { klasse: "F1a", lp: "Eg" },
+    { klasse: "F1b", lp: "Kr" },
+    { klasse: "4Wb", lp: "Ft" },
+    { klasse: "F2b", lp: "Kc" },
   ],
   [
-    { klasse: "F2a", lp: "Mo" },
-    { klasse: "F2b", lp: "BP" },
-    { klasse: "F2c", lp: "Vb" },
-    { klasse: "F2e", lp: "Kä" },
+    { klasse: "F3c", lp: "Vb" },
+    { klasse: "F3e", lp: "Kä" },
+    { klasse: "2AM", lp: "Sf" },
+    { klasse: "F1d", lp: "Ha" },
   ],
   [
-    { klasse: "1BL", lp: "Hi" },
-    { klasse: "F1b", lp: "Hu" },
-    { klasse: "2AW", lp: "Ga/17" },
-    { klasse: "2IS", lp: "MF/18" },
+    { klasse: "2BL", lp: "Hf" },
+    { klasse: "3B", lp: "Km" },
+    { klasse: "1B", lp: "Pa" },
+    { klasse: "F3b", lp: "BP" },
   ],
   [
-    { klasse: "1B", lp: "Re" },
-    { klasse: "1E", lp: "Re" },
-    { klasse: "F1a", lp: "Gr" },
-    { klasse: "3A", lp: "Rt" },
+    { klasse: "3Wa", lp: "Fx" },
+    { klasse: "4ILS", lp: "Et" },
+    { klasse: "1E", lp: "Ry" },
+    { klasse: "1IM", lp: "Si" },
+    { klasse: "2Wa", lp: "Bb" },
   ],
   [
-    { klasse: "1IS", lp: "Sd" },
-    { klasse: "F1c", lp: "Sd" },
-    { klasse: "2Ea", lp: "Fi" },
-    { klasse: "2Eb", lp: "Gl" },
+    { klasse: "F2d", lp: "Sc" },
+    { klasse: "1Wb", lp: "Rd" },
+    { klasse: "1AB", lp: "Nu" },
+    { klasse: "2Z", lp: "En" },
   ],
   [
-    { klasse: "1Z", lp: "Ld" },
-    { klasse: "3MZ", lp: "Ge" },
-    { klasse: "F3c", lp: "Mh" },
+    { klasse: "1Z", lp: "Ly" },
+    { klasse: "3Eb", lp: "Gl" },
+    { klasse: "1Wa", lp: "Ru" },
     { klasse: "Schulleitung", lp: "Admin & LP" },
   ],
   [
-    { klasse: "1AM", lp: "Hp" },
-    { klasse: "1Wd", lp: "Dg" },
-    { klasse: "F1d", lp: "Sc" },
-    { klasse: "3B", lp: "Bx" },
-    { klasse: "4W", lp: "Br" },
+    { klasse: "2B", lp: "Sw" },
+    { klasse: "2E", lp: "Bc" },
+    { klasse: "F2a", lp: "Gr" },
+    { klasse: "F3a", lp: "Mo" },
   ],
   [
-    { klasse: "1Wb", lp: "Et" },
-    { klasse: "2Wa", lp: "Wl" },
-    { klasse: "3ILS", lp: "Et" },
-    { klasse: "4E", lp: "Mb" },
+    { klasse: "F2c", lp: "Sd" },
+    { klasse: "F1c", lp: "Ld" },
+    { klasse: "1S", lp: "Rf" },
+    { klasse: "4Wa", lp: "Sk" },
   ],
   [
-    { klasse: "1Wa", lp: "Bb" },
-    { klasse: "4AB", lp: "Ry" },
-    { klasse: "4ILS", lp: "NN" },
-    { klasse: "4MZ", lp: "Nu" },
+    { klasse: "4MZ", lp: "Ge" },
+    { klasse: "3IS", lp: "MF" },
+    { klasse: "3AW", lp: "Ga" },
+    { klasse: "F3d", lp: "Ke" },
   ],
   [
-    { klasse: "2LMZ", lp: "NN" },
-    { klasse: "2Wb", lp: "Aw" },
-    { klasse: "3E", lp: "Mx" },
-    { klasse: "3Wa", lp: "Sk" },
+    { klasse: "3LMZ", lp: "Bi" },
+    { klasse: "2IS", lp: "Co" },
+    { klasse: "2Wb", lp: "Hs" },
+    { klasse: "4B", lp: "Bx" },
   ],
   [
-    { klasse: "2B", lp: "Kn" },
-    { klasse: "3Wb", lp: "Ft" },
-    { klasse: "4B", lp: "Rf" },
-    { klasse: "P1b", lp: "Hx" },
-    { klasse: "P1a", lp: "Va" },
+    { klasse: "4E", lp: "Mx" },
+    { klasse: "2Wd", lp: "Ta" },
+    { klasse: "3Wb", lp: "Aw" },
+    { klasse: "4A", lp: "Rt" },
+    { klasse: "3Ea", lp: "Fi" },
   ],
 ];
 
@@ -304,7 +304,7 @@ export default function Times() {
         <h4>Schlitten ab Tannenheim</h4>
         <div className="inset">
           Es stehen Postautos in Tannenheim zur Verfügung, die um{" "}
-          <strong>16:30 Uhr</strong> abfahren. Bitte seien Sie pünktlich und
+          <strong>16:40 Uhr</strong> abfahren. Bitte seien Sie pünktlich und
           füllen Sie alle Postautos aus.
         </div>
 
@@ -316,76 +316,76 @@ export default function Times() {
 
         <div className="downhill-times">
           <div className="downhill-col">
-            <span>16:05 Uhr</span>
-            <span>1AM</span>
-            <span>1B</span>
-            <span>1BL</span>
-            <span>1E</span>
-            <span>1IS</span>
-          </div>
-          <div className="downhill-col">
-            <span>16:10 Uhr</span>
-            <span>1Wa</span>
-            <span>1Wb</span>
-            <span>1Wd</span>
-            <span>1Z</span>
-            <span>F1a</span>
-          </div>
-          <div className="downhill-col">
             <span>16:15 Uhr</span>
-            <span>F1b</span>
-            <span>F1c</span>
-            <span>F1d</span>
-            <span>2AW</span>
-            <span>2B</span>
+            <span>1AB</span>
+            <span>1B</span>
+            <span>1E</span>
+            <span>1IM</span>
+            <span>1S</span>
           </div>
           <div className="downhill-col">
             <span>16:20 Uhr</span>
-            <span>2Ea</span>
-            <span>2Eb</span>
-            <span>2IS</span>
-            <span>2LMZ</span>
-            <span>2Wa</span>
+            <span>1Wa</span>
+            <span>1Wb</span>
+            <span>1Z</span>
+            <span>F1a</span>
+            <span>F1b</span>
           </div>
           <div className="downhill-col">
             <span>16:25 Uhr</span>
-            <span>2Wb</span>
+            <span>F1c</span>
+            <span>F1d</span>
             <span>F2a</span>
             <span>F2b</span>
             <span>F2c</span>
-            <span>F2d</span>
           </div>
           <div className="downhill-col">
             <span>16:30 Uhr</span>
-            <span>3A</span>
-            <span>3B</span>
-            <span>3E</span>
-            <span>3ILS</span>
-            <span>3MZ</span>
+            <span>F2d</span>
+            <span>2AM</span>
+            <span>2B</span>
+            <span>2BL</span>
+            <span>2E</span>
           </div>
           <div className="downhill-col">
             <span>16:35 Uhr</span>
-            <span>F2e</span>
-            <span>3Wa</span>
-            <span>3Wb</span>
-            <span>F3a</span>
-            <span>F3b</span>
+            <span>2IS</span>
+            <span>2Wa</span>
+            <span>2Wb</span>
+            <span>2Wd</span>
+            <span>2Z</span>
           </div>
           <div className="downhill-col">
             <span>16:40 Uhr</span>
-            <span>F3c</span>
-            <span>F3d</span>
-            <span>4AB</span>
-            <span>4B</span>
-            <span>4E</span>
+            <span>3AW</span>
+            <span>3B</span>
+            <span>3Ee</span>
+            <span>3Eb</span>
+            <span>3IS</span>
           </div>
           <div className="downhill-col">
             <span>16:45 Uhr</span>
+            <span>3LMZ</span>
+            <span>3Wa</span>
+            <span>3Wb</span>
+            <span>4A</span>
+            <span>4B</span>
+          </div>
+          <div className="downhill-col">
+            <span>16:50 Uhr</span>
+            <span>F3a</span>
+            <span>F3b</span>
+            <span>F3c</span>
+            <span>F3d</span>
+            <span>F3e</span>
+          </div>
+          <div className="downhill-col">
+            <span>16:55 Uhr</span>
+            <span>4E</span>
             <span>4ILS</span>
             <span>4MZ</span>
-            <span>4W</span>
-            <span>P1a</span>
-            <span>P1b</span>
+            <span>4Wa</span>
+            <span>4Wb</span>
           </div>
         </div>
       </div>

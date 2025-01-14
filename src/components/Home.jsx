@@ -180,7 +180,7 @@ export default function Home() {
                 vermutlich in einem Sportgeschäft vor Ort mieten.
               </p>
             </div>
-            <div className="activity-teacher">S. Metzger, L. Traxel</div>
+            <div className="activity-teacher">S. Metzger</div>
             <div className="activity-meeting">11:30h bis 15:00</div>
           </div>
         </div>
