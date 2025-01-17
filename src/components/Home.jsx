@@ -284,7 +284,7 @@ export default function Home() {
             </div>
             <div className="activity-teacher">J. Freiermuth</div>
             <div className="activity-meeting">
-              13:30h Tannenboden (im Anschluss an Gondelfahrt)
+              13:30h Tannenboden (Talstation Sessellift)
             </div>
           </div>
         </div>
