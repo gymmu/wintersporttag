@@ -37,9 +37,10 @@ export default function Emergency() {
                     Sollten Sie es nicht rechtzeitig zum Zug schaffen,
                     informieren Sie bitte umgehend Ihre Klassenlehrpersonen und
                     melden Sie sich beim Schulposten. Diese werden es dann an
-                    die Lehrpersonen LP1 und LP2 weiterleiten, die eine betreute
-                    Rückreise mit Ihnen organisieren werden. Es ist äusserst
-                    wichtig, den Zug nicht zu verpassen.
+                    die Lehrpersonen Noemie Lüthy und Michelle Ente (in Flums)
+                    oder Jonathan Ruf (in Unterterzen) weiterleiten, die eine
+                    betreute Rückreise mit Ihnen organisieren werden. Es ist
+                    äusserst wichtig, den Zug nicht zu verpassen.
                 </div>
             </div>
         </>

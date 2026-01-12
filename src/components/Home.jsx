@@ -156,7 +156,7 @@ export default function Home() {
                         </div>
                         <div className="activity-teacher">M. Stöcklin</div>
                         <div className="activity-meeting">
-                            11:15 Uhr Tannenboden (im Anschluss an Gondelfahrt)
+                            11:00 Uhr Tannenboden (im Anschluss an Gondelfahrt)
                         </div>
                     </div>
                 </div>
@@ -180,32 +180,32 @@ export default function Home() {
                         </div>
                         <div className="activity-teacher">W. Käch</div>
                         <div className="activity-meeting">
-                            11:30h Bergstation Maschgenkamm (im Anschluss an
-                            Bergfahrt)
+                            11:00 Uhr Tannenboden (im Anschluss an Gondelfahrt)
                         </div>
                     </div>
                 </div>
 
                 <div className="activity">
                     <div className="activity-header">
-                        <Icon url="/wintersporttag/logo-hiking.svg" />
-                        Schneeschuhwanderung - Plattis
+                        <Icon url="/wintersporttag/logo-activity.svg" />
+                        Snowboard mit fortgeschrittenen Anfänger:innen
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
-                            Erleben Sie die Wunderschöne Bergwelt der
-                            Flumserberge mit den Schneeschuhen. Dank den
-                            Schneeschuhen sind Sie nicht an normale Wanderwege
-                            gebunden und können die ganze Schönheit der
-                            Winterlandschaft erkunden.
-                            <p>
-                                Das Material müssen Sie selber mitbringen. Sie
-                                können es vermutlich in einem Sportgeschäft vor
-                                Ort mieten.
-                            </p>
+                            Sie stehen bereits sicher auf dem Brett, möchten
+                            aber Ihre Technik noch ein wenig verbessern. Oder
+                            Sie möchten lernen wie man einfache Carving-Schwünge
+                            fahren kann, oder wie man Switch fährt. Ganz egal ob
+                            Sie einfache Tricks lernen möchten, oder Ihre
+                            Technik ein wenig verfeinern möchten, hier können
+                            Sie in individueller Absprache alles lernen.
                         </div>
-                        <div className="activity-teacher">S. Metzger</div>
-                        <div className="activity-meeting">11:30h bis 15:00</div>
+                        <div className="activity-teacher">
+                            J. Gees und Y. Thommen
+                        </div>
+                        <div className="activity-meeting">
+                            11:00 Uhr Tannenboden (im Anschluss an Gondelfahrt)
+                        </div>
                     </div>
                 </div>
 
@@ -224,30 +224,13 @@ export default function Home() {
                             die Anwesenden angepasst. Sie können jederzeit
                             teilnehmen und das Angebot nach Belieben verlassen,
                             falls es nicht Ihren Geschmack trifft.
-                            <div className="spacer"></div>
-                            Unsere Treffen finden sowohl am Morgen als auch am
-                            Nachmittag statt und bleiben so lange bestehen, wie
-                            Sie Interesse haben. Wir freuen uns über spontane
-                            Teilnehmer am Treffpunkt, möchten jedoch
-                            sicherstellen, dass niemand vergessen wird. Daher
-                            freuen wir uns auch über Voranmeldungen per E-Mail.
-                            Kommen Sie vorbei und erleben Sie mit uns die
-                            Faszination des Snowboardfahrens in den
-                            Flumserbergen!
                         </div>
-                        <div className="activity-teacher">
-                            <a href="mailto:cedric.geissmann@sbl.ch">
-                                C. Geissmann
-                            </a>
-                        </div>
+                        <div className="activity-teacher">C. Geissmann</div>
                         <div className="activity-meeting">
                             <div>
-                                11:30 Uhr Bergstation Maschgenkamm (vor der
-                                grossen Tafel)
-                            </div>
-                            <div>
-                                14:00 Uhr Bergstation Maschgenkamm (vor der
-                                grossen Tafel)
+                                13:30 Uhr Bergstation Maschgenkamm (vor der
+                                grossen Tafel) halten Sie Ausschau nach einer
+                                grünen Jacke.
                             </div>
                         </div>
                     </div>
@@ -256,15 +239,44 @@ export default function Home() {
                 <div className="activity">
                     <div className="activity-header">
                         <Icon url="/wintersporttag/logo-ski.svg" />
-                        Skifahren mit fortgeschrittenen Anfänger:innen
+                        Blau fahren mit Yoda
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
-                            Treffpunkt Tannenboden; Betreuung 11:00h bis 13:00
+                            Sie möchten nur blaue Pisten fahren? Dann sind Sie
+                            hier genau richtig. Hier werden Sie alle blauen
+                            Pisten im Skigebiet abfahren und dabei die eine
+                            Sicherheit auf den Ski entwickeln, dass Sie am am
+                            Nachmittag auch schon auf roten Pisten unterwegs
+                            sein können.
                         </div>
                         <div className="activity-teacher">T. Gyalog</div>
                         <div className="activity-meeting">
-                            11:15h Tannenboden (im Anschluss an Gondelfahrt)
+                            11:00 Uhr Tannenboden (im Anschluss an Gondelfahrt)
+                            halten Sie Ausschau nach dem Yoda-Rucksack.
+                        </div>
+                    </div>
+                </div>
+
+                <div className="activity">
+                    <div className="activity-header">
+                        <Icon url="/wintersporttag/logo-ski.svg" /> /
+                        <Icon url="/wintersporttag/logo-activity.svg" /> Das
+                        Skigebiet Flumser-Berge entdecken
+                    </div>
+                    <div className="activity-body">
+                        <div className="activity-description">
+                            Gerne möchten wir ihnen das Skigebiet Flumserberg
+                            zeigen, egal, ob Sie mit den Skiern oder dem
+                            Snowboard unterwegs sind. Das Angebot richtet sich
+                            an fortgeschrittene Fahrer:innen.
+                        </div>
+                        <div className="activity-teacher">
+                            J. Freiermuth und B. Grossmann
+                        </div>
+                        <div className="activity-meeting">
+                            12.00 Uhr Bergstation Maschgenkamm (vor der grossen
+                            Tafel)
                         </div>
                     </div>
                 </div>
@@ -272,87 +284,20 @@ export default function Home() {
                 <div className="activity">
                     <div className="activity-header">
                         <Icon url="/wintersporttag/logo-ski.svg" />
-                        Skifahren mit Fortgeschrittenen
+                        Skifahren Mittelstufe
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
-                            Treffpunkt Maschgenkamm; Betreuung am Anfang und
-                            dann nach Absprache
+                            Sie können schon Skifahren, möchten aber noch an
+                            Ihrer Technik arbeiten, oder einfach nur sicherer
+                            und schneller werden auf den Skiern, dann sind Sie
+                            hier genau richtig. Hier lernen Sie wie man rote und
+                            auch schwarze Pisten sicher und elegant hinunter
+                            fährt.
                         </div>
                         <div className="activity-teacher">R. Morf</div>
                         <div className="activity-meeting">
-                            11:30h Bergstation Maschgenkamm (im Anschluss an
-                            Bergfahrt)
-                        </div>
-                    </div>
-                </div>
-
-                <div className="activity">
-                    <div className="activity-header">
-                        <Icon url="/wintersporttag/logo-activity.svg" />
-                        Snowboard mit fortgeschrittenen Anfänger:innen
-                    </div>
-                    <div className="activity-body">
-                        <div className="activity-description">
-                            Treffpunkt Tannenboden; Betreuung am Anfang und dann
-                            nach Absprache
-                        </div>
-                        <div className="activity-teacher">J. Gees</div>
-                        <div className="activity-meeting">
-                            11:15h Tannenboden (im Anschluss an Gondelfahrt)
-                        </div>
-                    </div>
-                </div>
-
-                <div className="activity">
-                    <div className="activity-header">
-                        <Icon url="/wintersporttag/logo-activity.svg" />
-                        Snowboard mit fortgeschrittenen Anfänger:innen
-                    </div>
-                    <div className="activity-body">
-                        <div className="activity-description">
-                            Treffpunkt Tannenboden; Betreuung am Anfang und dann
-                            nach Absprache
-                        </div>
-                        <div className="activity-teacher">J. Freiermuth</div>
-                        <div className="activity-meeting">
-                            13:30h Tannenboden (Talstation Sessellift)
-                        </div>
-                    </div>
-                </div>
-
-                <div className="activity">
-                    <div className="activity-header">
-                        <Icon url="/wintersporttag/logo-activity.svg" />
-                        Snowboard mit Fortgeschrittenen
-                    </div>
-                    <div className="activity-body">
-                        <div className="activity-description">
-                            Treffpunkt Tannenboden; Betreuung am Anfang und dann
-                            nach Absprache
-                        </div>
-                        <div className="activity-teacher">Y. Thommen</div>
-                        <div className="activity-meeting">
-                            11:15h Tannenboden (im Anschluss an Gondelfahrt)
-                        </div>
-                    </div>
-                </div>
-
-                <div className="activity">
-                    <div className="activity-header">
-                        <Icon url="/wintersporttag/logo-langlauf.svg" />
-                        Langlauf
-                    </div>
-                    <div className="activity-body">
-                        <div className="activity-description">
-                            Betreuung nach Absprache
-                        </div>
-                        <div className="activity-teacher">
-                            A. Marbacher, A. Kaech
-                        </div>
-                        <div className="activity-meeting">
-                            Nach Absprache (Interessierte melden sich bei den
-                            LP)
+                            11:00 Uhr Tannenboden (Talstation Sessellift)
                         </div>
                     </div>
                 </div>
