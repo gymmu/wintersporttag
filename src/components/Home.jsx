@@ -164,7 +164,7 @@ export default function Home() {
                 <div className="activity">
                     <div className="activity-header">
                         <Icon url="/wintersporttag/logo-hiking.svg" />
-                        Wandern Flumserberg Maschgenkamm – Panüöl - Prodalp
+                        Wandern Flumserberg Maschgenkamm - Panüöl - Prodalp
                     </div>
                     <div className="activity-body">
                         <div className="activity-description">
