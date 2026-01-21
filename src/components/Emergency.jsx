@@ -14,7 +14,7 @@ export default function Emergency() {
                 <div className="emergency-numbers">
                     <div>
                         <span>Schulposten Prodalp</span>
-                        <span>077 455 23 38</span>
+                        <span>077 806 01 59</span>
                     </div>
 
                     <div>
